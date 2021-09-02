@@ -25,22 +25,36 @@
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
-/*colors orange: #ff5d0c turk blue: #0caeff darck blue: #350cff green: #0cff5d*/
+/*colors orange: #823108 turk blue: #0a7eb8 dark blue: #1c0882 green: #088231*/
 /*defaults*/
 * {
     font-family: Teko, Roboto,'Courier New', Courier, monospace;
 }
 /*section tags*/
+nav {
+    background-color: #085982;
+    text-align: right;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 10%;
+}
 /*writing tags*/
 h1 {
-    color: white;
-    background-image: url("");
+    /*background*/
+    background-image: url("../pictures/spacex-OHOU-5UVIYQ-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    /*text*/
     text-align: center;
     font-family: orbitron, 'Courier New', Courier, monospace;
     font-weight: 800;
-    padding: 100px;
-    
+    color: white;
+    font-size: 5pc;
+    /*border*/
+    padding-top: 200px;  
 }
